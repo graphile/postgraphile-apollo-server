@@ -26,5 +26,8 @@
   "peerDependencies": {
     "postgraphile": "4.x"
   },
-  "homepage": "https://github.com/graphile/postgraphile-apollo-server#readme"
+  "homepage": "https://github.com/graphile/postgraphile-apollo-server#readme",
+  "files": [
+    "index.js"
+  ]
 }
