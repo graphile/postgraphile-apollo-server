@@ -1,0 +1,27 @@
+{
+  "name": "postgraphile-apollo-server",
+  "version": "0.0.0",
+  "description": "Helper for using PostGraphile with Apollo Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphile/postgraphile-apollo-server.git"
+  },
+  "keywords": [
+    "postgraphile",
+    "graphile",
+    "apollo-server",
+    "apollo",
+    "server",
+    "graphql"
+  ],
+  "author": "Benjie Gillam <code@benjiegillam.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphile/postgraphile-apollo-server/issues"
+  },
+  "homepage": "https://github.com/graphile/postgraphile-apollo-server#readme"
+}
