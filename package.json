@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/graphile/postgraphile-apollo-server/issues"
   },
+  "peerDependencies": {
+    "postgraphile": "4.x"
+  },
   "homepage": "https://github.com/graphile/postgraphile-apollo-server#readme"
 }

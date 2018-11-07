@@ -1,4 +1,3 @@
-const pg = require("pg");
 const {
   createPostGraphileSchema,
   withPostGraphileContext
