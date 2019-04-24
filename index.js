@@ -160,7 +160,7 @@ function createBadAuthorizationHeaderError() {
 
 const authorizationBearerRex = /^\s*bearer\s+([a-z0-9\-._~+/]+=*)\s*$/i;
 function getJwtToken(request) {
-  const { authorization } = request.headers;
+  const authorization = request.headers.get("authorization");
   if (Array.isArray(authorization)) throw createBadAuthorizationHeaderError();
 
   // If there was no authorization header, just return null.
