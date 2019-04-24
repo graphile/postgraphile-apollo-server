@@ -1,6 +1,6 @@
 {
   "name": "postgraphile-apollo-server",
-  "version": "0.1.1-0",
+  "version": "0.1.1",
   "description": "Helper for using PostGraphile with Apollo Server",
   "main": "index.js",
   "scripts": {
