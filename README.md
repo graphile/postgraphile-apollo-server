@@ -48,6 +48,11 @@ Not all PostGraphile library options are supported at this time; for example
 
 https://github.com/graphile/postgraphile-example-apollo-server
 
+## Changelog
+
+- v0.1.0 - initial release
+- v0.1.1 - fix headers after Apollo Server breaking change (thanks @miguelocarvajal)
+
 ## TODO:
 
 - [ ] Improve this README!
