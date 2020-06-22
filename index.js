@@ -91,7 +91,7 @@ exports.makeSchemaAndPlugin = async (pgPool, dbSchema, postGraphileOptions) => {
                 // Jesse, an Apollo Server developer, told me to do this 😜
                 Object.assign(
                   graphqlContext,
-                  additionalGraphQLContextFromRequest,
+                  additionalContext,
                   postgrapileContext
                 );
 
